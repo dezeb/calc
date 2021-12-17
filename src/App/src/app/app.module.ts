@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalcModule } from './modules/calc/calc.module';
 import { NotFoundComponent } from './errors/not-found/not-found.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NotFoundComponent } from './errors/not-found/not-found.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CalcModule
+    CalcModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
